@@ -1,5 +1,6 @@
 package stack
 
+// Note: optimize it currently use string better use byte slice
 func isValid(s string) bool {
 	left_bracket := "("
 	right_bracket := ")"
